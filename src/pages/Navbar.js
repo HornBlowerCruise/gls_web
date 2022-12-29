@@ -1,9 +1,11 @@
 import '../css/Navbar.css';
 import React, { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const [yOffset, setYOffset] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -26,7 +28,7 @@ const Navbar = () => {
     <div className='board1'>선한지도자학교
     <div className='board1DropDown'>
         <ul>
-            <li className='dropDownContent'>인사말</li>
+            <li onClick={() => { navigate('/topmenu01/submenu01');}} className='dropDownContent'>인사말</li>
             <li className='dropDownContent'>소개</li>
             <li className='dropDownContent'>교장</li>
         </ul>
