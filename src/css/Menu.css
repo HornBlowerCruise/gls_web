@@ -22,3 +22,7 @@
     transform: translate(-50%, -50%); */
     object-fit: cover;
 } 
+
+.passage {
+    height: 500px;
+}

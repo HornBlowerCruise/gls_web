@@ -5,7 +5,7 @@ import Summary from './Summary.js'
 import Cases from './Cases.js'
 import HomeNotice from './HomeNotice'
 import HomeNotice2 from './HomeNotice2'
-import ContactInfo from '../ContactInfo';
+
 
 const Home = () => {
   return (
@@ -32,7 +32,6 @@ const Home = () => {
   <Cases/>
   <HomeNotice/>
   <HomeNotice2/>
-  <ContactInfo/>
     </div>
   )
 }
