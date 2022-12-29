@@ -28,7 +28,7 @@ const ContactInfo = () => {
     </item>
     <item>SOCIAL<br></br><br></br>
     <img height='40px' width='40px' src='https://cdn-icons-png.flaticon.com/512/1936/1936319.png'></img>&nbsp;&nbsp;
-    <img height='40px' width='40px' src='https://cdn.icon-icons.com/icons2/622/PNG/512/youtube-logo_icon-icons.com_57043.png'></img>
+    <img height='40px' width='40px' src='https://cdn-icons-png.flaticon.com/512/1384/1384028.png'></img>
     </item>
     
     </div>
